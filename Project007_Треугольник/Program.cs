@@ -25,11 +25,11 @@ Console.WriteLine("+");
 Console.SetCursorPosition(xc, yc);           
 Console.WriteLine("+");
 
-int x = xa,  y = xb;
+int x = xa,  y = ya;
 
 int count = 0;
 
-while(count < 10000);
+while(count < 100);
 {
     //Выбираем одну из 3 точек
     int what = new Random().Next(0, 3);        //new Random().Next - формирует псевдослучайные числа. Полуинтервал [0;3) 0 1 2
